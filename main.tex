@@ -10,7 +10,7 @@
 
 % moderncv themes
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{red}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -34,7 +34,7 @@
 %\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+\quote{Results-oriented individual, passionate about building high-quality distributed systems and software engineering solutions.}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 %\makeatletter
@@ -64,16 +64,17 @@
 
 \section{Experience}
 %\subsection{Vocational}
-\cventry{2002--present}{Software Engineer}{JPMorgan Chase}{Columbus, Ohio}{}{Develop frameworks, innovation, etc.\newline{}%
-Detailed achievements:%
+\cventry{2002--present}{Software Engineer}{JPMorgan Chase}{Columbus, Ohio}{}{Building high-performance, scallable and resilient distributed systems to support core consumer banking functions. We currently support tens of millions of customers, transaction rates in the 10,000s per second and latency typically below 30 milliseconds in the 95 percentile.\newline{}%
+Noteworthy accomplishments:%
 \begin{itemize}%
-\item Applications of machine learning to anomaly detection in operational and business data
-\item Develop frameworks to support core banking functions:
+\item Developed frameworks to support core banking functions, with particular focus on:
   \begin{itemize}%
-  \item Ressilience
-  \item Application health and monitoring
+  \item Resilience (via circuit-breakers, bulk heading, toggles, switches)
+  \item Application health and monitoring (via metrics actuator endpoints, open tracing)
+  \item Common logging
   \end{itemize}
-\item Support migration to the cloud-based architecture
+\item Support shift towards micro-services and cloud-based architectures
+\item Proof of Concept to demonstrate application of machine learning to anomaly detection in operational and business data
 \end{itemize}}
 %Expert Engineer (E2) Program Alum, 2013
 \cventry{2008--present}{Adjunct Professor}{Franklin University}{Columbus, Ohio}{}{Courses taught:\newline{}COMP655 -- Distributed Systems}
@@ -86,14 +87,14 @@ Detailed achievements:%
 \cvitemwithcomment{Italian}{Basic}{Very basic comprehension}
 
 \section{Computer skills}
-\cvdoubleitem{Distributed Systems}{XXX, YYY, ZZZ}{Machine Learning}{Apache Spark, R}
-\cvdoubleitem{Programming}{Java, Clojure}{Cloud}{Cloud Foudry, AWS}
-\cvdoubleitem{Software Architecture}{XXX, YYY, ZZZ}{More?}{XXX, YYY, ZZZ}
+\cvdoubleitem{Distributed Systems}{Blockchain, Consensus algorithms, Consistency Models}{Machine Learning}{Apache Spark, R}
+\cvdoubleitem{Programming}{Java, Clojure}{Cloud}{Cloud Foundry, AWS}
+\cvdoubleitem{Software Architecture}{Micro Services}{SCM}{Git}
 
 \section{Interests}
-\cvitem{Music}{I like to sing and play...}
+\cvitem{Music}{I like to sing and play clarinet, guitar and piano...}
 \cvitem{Swimming}{Occasionally...}
-\cvitem{Family}{I have tow kids, boy and a girl...}
+\cvitem{Family}{I have two kids, a boy and a girl...}
 
 \section{Publications}
 \cvlistitem{``Latency Effects on Reachability in Large-scale Peer-to-Peer Networks,''
