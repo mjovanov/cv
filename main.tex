@@ -34,7 +34,7 @@
 %\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-\quote{Results-oriented individual, passionate about building high-quality distributed systems and software engineering solutions.}                                 % optional, remove / comment the line if not wanted
+\quote{Results-oriented individual, passionate about building high-quality distributed systems and software engineering solutions}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 %\makeatletter
@@ -64,37 +64,43 @@
 
 \section{Experience}
 %\subsection{Vocational}
-\cventry{2002--present}{Software Engineer}{JPMorgan Chase}{Columbus, Ohio}{}{Building high-performance, scallable and resilient distributed systems to support core consumer banking functions. We currently support tens of millions of customers, transaction rates in the 10,000s per second and latency typically below 30 milliseconds in the 95 percentile.\newline{}%
+\cventry{2012--present}{Software Engineer}{JPMorgan Chase}{Columbus, Ohio}{}{As a member of Enterprise Systems Engineering team, built high-performance, scalable and resilient distributed systems to support core consumer banking functions. Currently supporting tens of millions of customers, transaction rates in the 10,000s per second and latency typically below 30 milliseconds in the 95 percentile.\newline{}%
 Noteworthy accomplishments:%
 \begin{itemize}%
 \item Developed frameworks to support core banking functions, with particular focus on:
   \begin{itemize}%
-  \item Resilience (via circuit-breakers, bulk heading, toggles, switches)
-  \item Application health and monitoring (via metrics actuator endpoints, open tracing)
-  \item Common logging
+  \item Resilience (via circuit-breakers, bulkheading, toggles, switches)
+  \item Application health and monitoring (via metrics actuator endpoints, open tracing instrumentation)
+%  \item Common logging
   \end{itemize}
-\item Support shift towards micro-services and cloud-based architectures
-\item Proof of Concept to demonstrate application of machine learning to anomaly detection in operational and business data
+\item Implemented ``proof of concept'' solution demonstrating application of machine learning to anomaly detection in operational and business data
+\item Researched new and innovative technologies to aid in shift towards microservices and cloud-based architectures
+\item Provided technical guidance and leadership in support of core banking modernization, migrating millions of lines of COBOL code to Java on the mainframe (zOS)
+\item Expert Engineer (E2) Program Alumnus (Class of 2012)
 \end{itemize}}
 %Expert Engineer (E2) Program Alum, 2013
-\cventry{2008--present}{Adjunct Professor}{Franklin University}{Columbus, Ohio}{}{Courses taught:\newline{}COMP655 -- Distributed Systems}
+\cventry{2007--2012}{Application Developer/Analyst}{JPMorgan Chase}{Columbus, Ohio}{}{Lead developer on a team supporting financial compliance and fraud prevention \& investigation function. TopCat Innovation Award finalist for work related to electronically filling SAR reports with US Department of the Treasury FinCEN.}
+\cventry{2002--2007}{Application Developer/Analyst}{BankOne}{Columbus, Ohio}{}{Java Developer supporting Commercial Loan Arrangement Servicing (CLASS) platform.}
+\cventry{2008--present}{Adjunct Professor}{Franklin University}{Columbus, Ohio}{}{Courses taught:\newline{}COMP 655 -- Distributed Systems\newline{}COMP 645 -- Topics in Software Development\newline{}COMP 321 -- Application Server Programming\newline{}COMP 121 -- Object-Oriented Data Structures and Algorithms 1}
 %\subsection{Miscellaneous}
-\cventry{1999}{Research Scientist (Summer Internship)}{Procter \& Gamble}{Ross, Ohio}{}{Developed data modeling and visualization software supporting development of sixteen patents}
+\cventry{2002}{Summer Intern}{MindView, Inc.}{Crested Butte, Colorado}{}{One of six interns selected nationally to develop code examples for $3^{rd}$ edition of Bruce Eckel's book ``Thinking in Java.''}
+\cventry{1999}{Research Scientist (Summer Internship)}{Procter \& Gamble}{Ross, Ohio}{}{Developed data modeling and visualization software supporting development of sixteen patents.}
 
-\section{Languages}
-\cvitemwithcomment{Serbian/Croatian}{Native}{}
-\cvitemwithcomment{French}{Basic}{Took 6 years in grade school}
-\cvitemwithcomment{Italian}{Basic}{Very basic comprehension}
+%\section{Languages}
+%\cvitemwithcomment{Serbian/Croatian}{Native}{}
+%\cvitemwithcomment{French}{Basic}{Took 6 years in grade school}
+%\cvitemwithcomment{Italian}{Basic}{Very basic comprehension}
 
 \section{Computer skills}
-\cvdoubleitem{Distributed Systems}{Blockchain, Consensus algorithms, Consistency Models}{Machine Learning}{Apache Spark, R}
-\cvdoubleitem{Programming}{Java, Clojure}{Cloud}{Cloud Foundry, AWS}
-\cvdoubleitem{Software Architecture}{Micro Services}{SCM}{Git}
 
-\section{Interests}
-\cvitem{Music}{I like to sing and play clarinet, guitar and piano...}
-\cvitem{Swimming}{Occasionally...}
-\cvitem{Family}{I have two kids, a boy and a girl...}
+\cvdoubleitem{Programming}{Java, Clojure}{Scripting}{bash, awk, sed}
+\cvdoubleitem{Databases}{Oracle, DB2, Cassandra}{Machine Learning}{Apache Spark, R}
+\cvdoubleitem{Application Servers}{WebSphere/Liberty Profile, Tomcat}{Cloud Computing}{Cloud Foundry, AWS, Docker}
+
+%\section{Interests}
+%\cvitem{Music}{I like to sing and play clarinet, guitar and piano...}
+%\cvitem{Swimming}{Occasionally...}
+%\cvitem{Family}{I have two kids, a boy and a girl...}
 
 \section{Publications}
 \cvlistitem{``Latency Effects on Reachability in Large-scale Peer-to-Peer Networks,''
@@ -111,6 +117,9 @@ In IX Telecommunications Forum TELFOR 2001, Belgrade, Serbia.}
 
 \cvlistitem{``Scalability Issues in Large Peer-to-Peer Networks,''
 Technical Report, University of Cincinnati Department of ECECS, 2000.}
+
+\section{References}
+Available upon request
 
 %\section{Extra 2}
 %\cvlistdoubleitem{Item 1}{Item 4}
